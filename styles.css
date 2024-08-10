@@ -1,0 +1,70 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5dc;
+    color: #333;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    color: #6b8e23;
+}
+
+/* Teaser Text */
+.teaser {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Subtext */
+.subtext {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Signup Form */
+.signup-form input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px;
+    max-width: 80%;
+}
+
+.signup-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6b8e23;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #556b2f;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
