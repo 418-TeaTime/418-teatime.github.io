@@ -11,6 +11,13 @@ body {
     color: #dcdcdc;
 }
 
+.logo {
+    display: block;
+    margin: 0 auto 20px auto; /* Zentriert das Logo und fügt unten Abstand hinzu */
+    max-width: 150px; /* Begrenze die Breite des Logos */
+    height: auto; /* Behält das Seitenverhältnis bei */
+}
+
 /* Container */
 .container {
     text-align: center;
